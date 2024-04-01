@@ -32,7 +32,7 @@ class Node
 
 class Solution {
 
-    public static int pairsViolatingBST(int n, Node root) {
+    public int pairsViolatingBST(int n, Node root) {
         int count = 0;
 
         ArrayList<Integer> inOrder = new ArrayList<>();
