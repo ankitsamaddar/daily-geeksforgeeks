@@ -12,21 +12,30 @@ As the answer will be large, return answer **modulo 10<sup>9</sup>+7** .
 **Example 1:**
 
 **Input:** s = "1234"
-**Output:** 1670**Explanation:** Sum = 1 + 2 + 3 + 4 + 12 + 23 + 34 + 123 + 234 + 1234 = 1670
+
+**Output:** 1670
+
+**Explanation:**
+
+Sum = 1 + 2 + 3 + 4 + 12 + 23 + 34 + 123 + 234 + 1234 = 1670
 
 **Example 2:**
 
 **Input:** s = "421"
-**Output:** 491**Explanation:** Sum = 4 + 2 + 1 + 42 + 21 + 421 = 491
 
-**Your Task:** 
+**Output:** 491
+
+**Explanation:** Sum = 4 + 2 + 1 + 42 + 21 + 421 = 491
+
+**Your Task:**
 You only need to complete the function **sumSubstrings**  that takes **s**  as an argument and returns the answer **modulo 10<sup>9</sup>+7** .
 
 **Expected Time Complexity:** O(|s|).
 **Expected Auxiliary Space:** O(|s|).
 
-**Constraints:** 
+**Constraints:**
 1 <= |s| <= 10<sup>5</sup>
 
 ### Topic Tags
+
 `Strings`  `Dynamic Programming`  `Data Structures`  `Algorithms`

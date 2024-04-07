@@ -12,29 +12,38 @@ Changing a number to **greater** or **lesser** than original number is counted a
 **Example 1:**
 
 **Input:** n = 6
+
 nums = [1, 2, 3, 6, 5, 4]
+
 **Output:** 2
+
 **Explanation:** By decreasing 6 by 2 and increasing 4 by 2, nums will be like [1, 2, 3, 4, 5, 6] which is stricly increasing.
+
 
 **Example 2:**
 
-**Input:**  
+**Input:**
+
 n = 4
+
 nums = [1, 1, 1, 1]
+
 **Output:** 3
+
 **Explanation:** One such array after operation can be [-2, -1, 0, 1]. We require atleast 3 operations for this example.
 
-**Your Task:** 
+
+**Your Task:**
 You don't need to read or print anything. Your task is to complete the function **min\_opeartions()** which takes the array **nums** as input parameter and returns the minimum number of opeartion needed to make the array strictly increasing.
 
 **Expected Time Complexity:**  O(n<sup>2</sup>)
 **Expected Space Complexity:** O(n)
 
-**Constraints:** 
+**Constraints:**
 1 <= n <= 10<sup>3</sup>
 1 <= nums[i] <= 10<sup>9</sup>
 
 ### Company Tags
-`Microsoft`  
+`Microsoft`
 ### Topic Tags
 `Dynamic Programming`  `Algorithms`

@@ -10,27 +10,44 @@ Nodes x and y will always be **present**  in the input of a BST, and **x != y** 
 
 **Example 1:**
 
-**Input:** 
+**Input:**
+
 Input tree
+
 ![](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/861885/Web/Other/blobid0_1712119495.png)
-k = 2, x = 40, y = 60 
-**Output:** 
+
+k = 2, x = 40, y = 60
+
+**Output:**
+
 30
-**Explanation:** 
+
+**Explanation:**
+
 Their 2nd common ancestor is 30.
+
+
 
 **Example 2:**
 
-**Input:** 
+**Input:**
+
 Input tree
+
 ![](https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/861885/Web/Other/blobid1_1712119495.png)
+
 k = 2, x = 40, y = 60
-**Output:** 
+
+**Output:**
+
 -1
-**Explanation:** 
+
+**Explanation:**
+
 LCA of 40 and 60 is 50, which is root itself. There does not exists 2nd common ancestor in this case.
 
-**Your task :** 
+
+**Your task :**
 
 You don't have to read input or print anything. Your task is to complete the function **kthCommonAncestor** **()**  that takes the **root**  of the tree, **k** , **x**  and **y**  as input and returns the kth common ancestor of x and y.
 
@@ -38,9 +55,10 @@ You don't have to read input or print anything. Your task is to complete the fun
 
 **Expected Space Complexity:** O(Height of the Tree)
 
-**Your Task :** 
+**Your Task :**
 
 1 <= n, k <= 10<sup>5</sup>
+
 1 <= node->data, x, y <= 10<sup>9</sup>
 
 ### Topic Tags
