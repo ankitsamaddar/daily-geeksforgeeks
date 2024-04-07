@@ -14,9 +14,13 @@ There are**n**  stairs, and a person standing at the bottom wants to reach the t
 
 **Explanation:** You can reach 4th stair in 3 ways.
 3 possible ways are:
+
 1, 1, 1, 1
+
 1, 1, 2
+
 2, 2
+
 Here, note that {1, 1, 2}, {1, 2, 1} and {2, 1, 1} are considered same as their order does not matter.
 
 **Example 2:**
