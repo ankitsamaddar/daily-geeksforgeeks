@@ -49,3 +49,7 @@ See Solutions here
 </details>
 
 ## May 2024
+
+| SL No | Problem Name w/ Difficulty | ProblemURL | ProblemURL2 | Solution | Notes |
+| :---: | -------------------------- | :--------: | :---------: | :------: | ----- |
+| 01 | [Arrange Consonants and Vowels](<./05-2024(May)/01_arrange-consonants-and-vowels.md>) <br>🟡Medium | [GeeksforGeeks](https://www.geeksforgeeks.org/problems/arrange-consonants-and-vowels/1) | — | 1 May<br>[Java](<./05-2024(May)/01_arrange-consonants-and-vowels.java>) | Maintain two separate linkedlist for vowels and consonants. Traverse the `head` list, Use `isVowel()` method to check if it is vowel then append to `vowelLast` list else append to `consonantLast` list. Concatenate `consonantLast` at the end of `vowelLast`. Return `vowelHead.next`. |
